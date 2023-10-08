@@ -1,10 +1,10 @@
 import React from "react";
-import "./../sections/Banner.scss";
+import "./../Banner/Banner.scss";
 import { Link } from "react-router-dom";
-import icon from "./../assets/banner/icons/phone.svg";
-import bannerImg from "./../assets/banner/001.png";
-import doctorImg from "./../assets/banner/doctor.png";
-import bannerPattern from "./../assets/banner/eyes.svg";
+import icon from "../../assets/banner/icons/phone.svg";
+import bannerImg from "../../assets/banner/001.png";
+import doctorImg from "../../assets/banner/doctor.png";
+import bannerPattern from "../../assets/banner/eyes.svg";
 // import shapeOne from "./../assets/banner/vector_1.jpg";
 // import shapeTwo from "./../assets/banner/vector_2.png";
 // import shapeThree from "./../assets/banner/vector_01.png";
@@ -51,13 +51,6 @@ const Banner = () => {
                                             <p><small>Consultant</small></p>
                                         </div>
                                     </div>
-                                    {/* VECTOR SHAPES */}
-                                    {/* <div className="shapes">
-                                        <img src={shapeOne} alt="shape" />
-                                        <img src={shapeTwo} alt="shape" />
-                                        <img src={shapeThree} alt="shape" />
-                                        <img src={shapeFour} alt="shape" />
-                                    </div> */}
                                 </div>
                             </div>
                         </div>
