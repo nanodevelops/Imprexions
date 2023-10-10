@@ -1,29 +1,29 @@
-import iconOne from "../../assets/Service/eye-solid.svg";
-import iconTwo from "../../assets/Service/eye-dropper-solid.svg";
-import iconThree from "../../assets/Service/glasses-solid.svg";
-import iconFour from "../../assets/Service/hospital-solid.svg";
+import iconOne from '../../assets/Service/eye-solid.png';
+import iconTwo from '../../assets/Service/eye-dropper-solid.png';
+import iconThree from '../../assets/Service/glasses-solid.png';
+import iconFour from '../../assets/Service/hospital-solid.png';
 
 const ServicesData = [
     {
         "icon": iconOne,
-        "title": "Eye Care",
-        "description": "Lorem ipsum is placeholder text commonly used in the graphic"
+        "title": "Treatment",
+        "description": "We handle everything from adult to children’s eye exams &  treatment of eye diseases",
     },
     {
         "icon": iconTwo,
-        "title": "Medications",
-        "description": "Lorem ipsum is placeholder text commonly used in the graphic"
+        "title": "Medication",
+        "description": "We also handle all your eye medication",
     },
     {
         "icon": iconThree,
-        "title": "Prescriptions",
-        "description": "Lorem ipsum is placeholder text commonly used in the graphic"
+        "title": "Prescription",
+        "description": "We handle hard-to-fit contact lenses, sale of quality lenses & dispensing of prescription",
     },
     {
         "icon": iconFour,
-        "title": "OPD",
-        "description": "Lorem ipsum is placeholder text commonly used in the graphic"
-    },
+        "title": "Home Service",
+        "description": "We have the best home service available",
+    }
 ]
 
 export default ServicesData;

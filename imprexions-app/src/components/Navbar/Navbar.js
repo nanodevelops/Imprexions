@@ -1,6 +1,6 @@
 import React from "react";
 import "./../Navbar/Navbar.scss";
-import logo from "../../assets/logo.jpeg";
+import logo from "../../assets/logo.png";
 import { Link } from 'react-router-dom';
 
 const Navbar = () => {
@@ -36,8 +36,8 @@ const Navbar = () => {
                             {/* NAVBAR LINKS */}
                             <ul className="navbar-nav">
                                 {
-                                    navbarMenu.map(navItem => 
-                                        <li className="nav-item">
+                                    navbarMenu.map((navItem, index) => 
+                                        <li className="nav-item" key={index}>
                                             <Link className="nav-link" to={navItem.path}>{navItem.name}</Link>
                                         </li>    
                                     )

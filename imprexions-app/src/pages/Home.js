@@ -1,14 +1,14 @@
 import React from "react";
 import Navbar from "../components/Navbar/Navbar";
 import Banner from "./../sections/Banner/Banner";
-import Service from "../components/Service/Service";
+import Services from "../sections/Services/Services";
 
 const Home = () => {
     return ( 
         <>
             <Navbar />
             <Banner />
-            <Service />
+            <Services />
         </>
      );
 }
